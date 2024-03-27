@@ -1,9 +1,6 @@
 const moduloA = require('./moduleA') // transforma o conteudo de outro arquivo em um objeto nesse arquivo
+const moduloB = require('./moduleB')
 
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
-console.log(moduloA.randomico.randomico(1,200))
+numAlea = moduloA.randomico.randomico(1,300)
+
+moduloB.obj.coincidencia(2, numAlea)
